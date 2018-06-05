@@ -1,0 +1,1944 @@
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.022119s][吞吐率：45.21req/s] [内存消耗：1,069.52kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.022580s][吞吐率：44.29req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021877s][吞吐率：45.71req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021649s][吞吐率：46.19req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019982s][吞吐率：50.04req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021157s][吞吐率：47.27req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021707s][吞吐率：46.07req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020304s][吞吐率：49.25req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019435s][吞吐率：51.45req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019723s][吞吐率：50.70req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019594s][吞吐率：51.04req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:32+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019731s][吞吐率：50.68req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.026659s][吞吐率：37.51req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.023932s][吞吐率：41.79req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.023731s][吞吐率：42.14req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019775s][吞吐率：50.57req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021558s][吞吐率：46.39req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019995s][吞吐率：50.01req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020395s][吞吐率：49.03req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021109s][吞吐率：47.37req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021798s][吞吐率：45.88req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020722s][吞吐率：48.26req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:35+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021043s][吞吐率：47.52req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020487s][吞吐率：48.81req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019541s][吞吐率：51.17req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020910s][吞吐率：47.82req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019940s][吞吐率：50.15req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019960s][吞吐率：50.10req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019832s][吞吐率：50.42req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020515s][吞吐率：48.74req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.019090s][吞吐率：52.38req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:36+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020602s][吞吐率：48.54req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.030836s][吞吐率：32.43req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.026323s][吞吐率：37.99req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.033802s][吞吐率：29.58req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.029807s][吞吐率：33.55req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.033804s][吞吐率：29.58req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.025877s][吞吐率：38.64req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.029929s][吞吐率：33.41req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.025811s][吞吐率：38.74req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.022306s][吞吐率：44.83req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021063s][吞吐率：47.48req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021409s][吞吐率：46.71req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021573s][吞吐率：46.35req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020664s][吞吐率：48.39req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020818s][吞吐率：48.04req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.021691s][吞吐率：46.10req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.022558s][吞吐率：44.33req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.022164s][吞吐率：45.12req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:41+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.020031s][吞吐率：49.92req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:42+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.033148s][吞吐率：30.17req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:45+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.031626s][吞吐率：31.62req/s] [内存消耗：1,039.13kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/index/login.html
+[ info ] localhost/tp5/public/admin/index/login.html [运行时间：0.024275s][吞吐率：41.19req/s] [内存消耗：1,069.30kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022462s][吞吐率：44.52req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021224s][吞吐率：47.12req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020673s][吞吐率：48.37req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021567s][吞吐率：46.37req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020517s][吞吐率：48.74req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020672s][吞吐率：48.37req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020838s][吞吐率：47.99req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020441s][吞吐率：48.92req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.023200s][吞吐率：43.10req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021130s][吞吐率：47.33req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021066s][吞吐率：47.47req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020806s][吞吐率：48.06req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.028393s][吞吐率：35.22req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022049s][吞吐率：45.35req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021430s][吞吐率：46.66req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022462s][吞吐率：44.52req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.024262s][吞吐率：41.22req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020439s][吞吐率：48.93req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021681s][吞吐率：46.12req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.026903s][吞吐率：37.17req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021384s][吞吐率：46.76req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.023589s][吞吐率：42.39req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:58+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021216s][吞吐率：47.13req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020202s][吞吐率：49.50req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021274s][吞吐率：47.01req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021237s][吞吐率：47.09req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020636s][吞吐率：48.46req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.019855s][吞吐率：50.37req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020795s][吞吐率：48.09req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022557s][吞吐率：44.33req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022414s][吞吐率：44.62req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022306s][吞吐率：44.83req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021488s][吞吐率：46.54req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022691s][吞吐率：44.07req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022170s][吞吐率：45.11req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.020561s][吞吐率：48.64req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.021578s][吞吐率：46.34req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022265s][吞吐率：44.91req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:00:59+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022398s][吞吐率：44.65req/s] [内存消耗：1,069.33kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:01:04+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.028079s][吞吐率：35.61req/s] [内存消耗：1,017.87kb] [文件加载：54]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin/view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:01:05+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.025655s][吞吐率：38.98req/s] [内存消耗：1,017.87kb] [文件加载：54]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin/view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:02:04+08:00 ] 0.0.0.0 GET /tp5/public/admin
+[ info ] localhost/tp5/public/admin [运行时间：0.026212s][吞吐率：38.15req/s] [内存消耗：1,069.11kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-25T18:02:04+08:00 ] 0.0.0.0 GET /tp5/public/admin/login/index.html
+[ info ] localhost/tp5/public/admin/login/index.html [运行时间：0.022897s][吞吐率：43.67req/s] [内存消耗：1,017.51kb] [文件加载：54]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp5\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=e3f3iodrr1on1h3ftpbqqo8hc5; _csrf-frontend=0e4c65c587eddf17fd3335112acbcfae787a84bc6d0f1e9a799a6df8ef03c1d9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QpOPbBxZtjPr4m84iKQp7kpBWEUr_KAf%22%3B%7D; advanced-admin=2ordaa4pl3q8ob3e0f8f7gjlg1; _csrf-admin=6104b3bfdbfbe3f0778a1bc44f1fc48fe2d5944dc00fa0ac34c2eb6b8f84b48da%3A2%3A%7Bi%3A0%3Bs%3A11%3A%22_csrf-admin%22%3Bi%3A1%3Bs%3A32%3A%22jiEKo5pHO004SMiJ4IXqPQEgxKIpujjb%22%3B%7D; pgv_pvi=1597360128; pgv_si=s3859005440; PHPSESSID=eus2oh1cnth3dr77ibd9iulur4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp5\public/../application/admin/view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
