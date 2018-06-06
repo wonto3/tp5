@@ -79,9 +79,23 @@
                 <img class="icon" src="__STATIC__/win10/img/icon/download.png"/>
                 <div class="title">快速获取</div>
             </div>
-            <div class="shortcut" onclick='Win10.openUrl("{:url('account/index')}","<i class=\"fa fa-user icon black-green\"></i>管理员")'>
+            <!--<div class="shortcut" onclick='Win10.openUrl("{:url('account/index')}","<i class=\"fa fa-user icon black-green\"></i>管理员")'>-->
+                <!--<i class="fa fa-user icon black-green"></i>-->
+                <!--<div class="title">管理员</div>-->
+            <!--</div>-->
+            <div class="shortcut win10-drawer">
                 <i class="fa fa-user icon black-green"></i>
                 <div class="title">管理员</div>
+                <div class="win10-drawer-box">
+                    <div class="shortcut-drawer win10-open-window" data-url="{:url('account/index')}">
+                        <img class="icon" src="__STATIC__/win10/img/icon/imageres.dll(79).png"/>
+                        <div class="title">管理员列表</div>
+                    </div>
+                    <div class="shortcut-drawer win10-open-window" data-url="{:url('account/index')}">
+                        <img class="icon" src="__STATIC__/win10/img/icon/admin.jpg"/>
+                        <div class="title">我的信息</div>
+                    </div>
+                </div>
             </div>
             <div class="shortcut win10-open-window" data-url="win10ui.yuri2.cn/src/contributor.php">
                 <i class="icon fa fa-fw fa-bank red" ></i>

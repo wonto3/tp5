@@ -4,7 +4,7 @@
     <div class="page-content">
         <div class="page-header">
             <h1>
-               添加管理员
+               {if $id>0}编辑{else}添加{/if}管理员
             </h1>
         </div><!-- /.page-header -->
 
@@ -16,14 +16,14 @@
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="form-field-1">账户名</label>
                         <div class="col-sm-9">
-                            <input type="text" id="form-field-1" name="username" placeholder="请填写账户名" class="col-xs-10 col-sm-5" />
+                            <input type="text" id="form-field-1" name="username" value="{if isset($item['username'])}{$item['username']}{/if}" placeholder="请填写账户名" class="col-xs-10 col-sm-5" />
                         </div>
                     </div>
                     <div class="space-4"></div>
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="form-field-2">密码</label>
                         <div class="col-sm-9">
-                            <input type="password" id="form-field-2" name="password" placeholder="请填写密码" class="col-xs-10 col-sm-5" />
+                            <input type="password" id="form-field-2" name="password" value="" placeholder="请填写密码" class="col-xs-10 col-sm-5" />
                             <span class="help-inline col-xs-12 col-sm-7">
                                 <span class="middle">密码长度不低于6位</span>
                             </span>
@@ -34,13 +34,28 @@
                         <label class="col-sm-3 control-label no-padding-right">状态</label>
                         <div class="col-sm-9">
                             <label>
-                                <input name="status" value="1" type="radio" class="ace" checked />
+                                <input name="status" value="1" type="radio" class="ace" {if isset($item['status'])}{if $item['status']==1}checked{/if}{else}checked{/if} />
                                 <span class="lbl"> 正常</span>
                             </label>
                             &nbsp;&nbsp;
                             <label>
-                                <input name="status" value="0" type="radio" class="ace" />
+                                <input name="status" value="0" type="radio" class="ace" {if isset($item['status'])}{if $item['status']==0}checked{/if}{/if} />
                                 <span class="lbl"> 禁止</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="space-4"></div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label no-padding-right">身份</label>
+                        <div class="col-sm-9">
+                            <label>
+                                <input name="isadmin" value="1" type="radio" class="ace" {if isset($item['isadmin'])}{if $item['isadmin']==1}checked{/if}{else}checked{/if} />
+                                <span class="lbl"> 主管理员</span>
+                            </label>
+                            &nbsp;&nbsp;
+                            <label>
+                                <input name="isadmin" value="0" type="radio" class="ace" {if isset($item['isadmin'])}{if $item['isadmin']==0}checked{/if}{/if} />
+                                <span class="lbl"> 子管理员</span>
                             </label>
                         </div>
                     </div>

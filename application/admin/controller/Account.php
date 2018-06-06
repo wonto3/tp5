@@ -7,7 +7,6 @@
  */
 
 namespace app\admin\controller;
-use think\Db;
 use think\facade\Request;
 
 class Account extends Common
@@ -15,9 +14,17 @@ class Account extends Common
     //列表页
     public function index(){
         $data = Request::param();
+        if(Request::isPost()){
+            $idList = isset($data['id'])?$data['id']:array();
+            if($idList){
+                foreach($idList as $k => $v){
+                    model('Account')->delOne($v);
+                }
+                $this->success('删除成功');
+            }
+        }
         $p = isset($data['p'])?$data['p']:1;
-        $limit = isset($data['limit'])?$data['limit']:10;
-        $list = Db::name('admin')->page($p, $limit)->paginate(10);
+        $list = model('Account')->getList($p);
         $this->assign('list',$list);
         $page = $list->render();
         $this->assign('page', $page);
@@ -28,17 +35,17 @@ class Account extends Common
     public function add(){
         $id = 0;
         $this->assign('id', $id);
-        return $this->fetch();
+        return $this->fetch('post');
     }
 
     //编辑
     public function edit(){
         $data = Request::param();
         $id = $data['id'];
-        $item = Db::name('admin')->where('id',$id)->find();
+        $item = model('Account')->getOne($id);
         $this->assign('id', $id);
         $this->assign('item', $item);
-        return $this->fetch();
+        return $this->fetch('post');
     }
 
     //处理数据
@@ -54,7 +61,7 @@ class Account extends Common
                 $this->error('密码不能为空');
             }
             $username = $data['username'];
-            $admin = Db::name('admin')->where('username',$username)->field('id')->limit(1)->find();
+            $admin =  model('Account')->checkName($username);
             if($admin){
                 if($id==0){
                     $this->error('该账户名已被注册');
@@ -64,9 +71,9 @@ class Account extends Common
             }
             if($id){
                 //编辑
-                $salt = Db::name('admin')->where('id',$id)->value('salt');
+                $salt = model('Account')->getSalt($id);
                 $data['password'] = md5($salt.$data['password']);
-                Db::name('admin')->where('id',$id)->update($data);
+                model('Account')->updateOne($id,$data);
                 $this->success('修改成功','Account/index');
             }else{
                 //添加
@@ -74,13 +81,23 @@ class Account extends Common
                 $salt = $this->random(8);
                 $data['salt'] = $salt;
                 $data['password'] = md5($salt.$data['password']);
-                $insert = Db::name('admin')->insert($data);
+                $insert = model('Account')->insertOne($data);
                 if($insert){
                     $this->success('添加成功','Account/index');
                 }else{
                     $this->error('添加失败','Account/index');
                 }
             }
+        }
+    }
+
+    //删除
+    public function del(){
+        if(Request::isGet()){
+            $data = Request::param();
+            $id = $data['id'];
+            model('Account')->delOne($id);
+            $this->success('删除成功');
         }
     }
 }
